@@ -3,7 +3,7 @@ import {Typography} from '@material-ui/core';
 import {Paper} from '@material-ui/core';
 import {AppBar} from '@material-ui/core';
 import { Toolbar } from '@material-ui/core';
-import { Grid } from '@material-ui/core';
+// import { Grid } from '@material-ui/core';
 import TodoList from './TodoList';
 
 function TodoApp(){
