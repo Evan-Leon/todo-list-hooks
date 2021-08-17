@@ -9,9 +9,9 @@ function TodoList(props) {
                 {props.todos.map((todo, i) => (
                     <>
                         <ListItem key={`item-${i}`}>
-                            <ListItemText key={i}>{todo.task}</ListItemText>
+                            <ListItemText key={`list-item-${i}`}>{todo.task}</ListItemText>
                         </ListItem>
-                        <Divider />
+                        <Divider key={`divider-${i}`} />
                     </>
                 ))}
             </List>
